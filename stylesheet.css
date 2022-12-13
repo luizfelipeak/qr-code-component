@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&&display=swap');
+
+:root {
+  --color-white: hsl(0, 0%, 100%);
+  --color-gray: hsl(212, 45%, 89%);
+  --color-gray-blue: hsl(220, 15%, 55%);
+  --color-blue-dark: hsl(218, 44%, 22%);
+
+  --ff-main: 'Outfit', sans-serif;
+}
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+picture,
+img {
+  max-width: 100%;
+  display: block;
+}
+
+body {
+  font-size: 15px;
+  font-family: var(--ff-main);
+  display: grid;
+  align-items: center;
+  justify-items: center;
+  grid-template-columns: 1fr;
+  min-height: 100vh;
+  background-color: var(--color-gray);
+}
+
+main {
+  position: relative;
+}
+
+.card {
+  display: grid;
+  justify-items: center;
+  gap: 1em;
+  background-color: var(--color-white);
+  padding: 1em;
+  border-radius: 1.35em;
+  max-width: 20rem;
+  text-align: center;
+}
+
+.card__img {
+  border-radius: 0.75em;
+  margin-bottom: 0.5em;
+}
+
+.card__title {
+  font-size: 1.35rem;
+  max-width: 17rem;
+  color: var(--color-blue-dark);
+}
+
+.card__description {
+  max-width: 16rem;
+  margin-bottom: 1.5em;
+  color: var(--color-gray-blue);
+}
+
+footer {
+  position: absolute;
+  bottom: 1rem;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
