@@ -43,6 +43,7 @@ main {
   justify-items: center;
   gap: 1em;
   background-color: var(--color-white);
+  box-shadow: 0 0.5em 1.5em hsl(220, 15%, 80%);
   padding: 1em;
   border-radius: 1.35em;
   max-width: 20rem;
