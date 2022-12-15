@@ -80,3 +80,7 @@ footer {
 .attribution a {
   color: hsl(228, 45%, 44%);
 }
+
+.attribution a:visited {
+  color: hsl(270, 100%, 60%);
+}
